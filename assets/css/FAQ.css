@@ -71,9 +71,32 @@ header {
 }
 input {
   border-radius: 8px;
-  border-color: #FDFDFD;
+  border-color: #f3f3f3;
   width: 200px;
   height: 36px;
   font-family: var(--mainFont);
 }
-.secondsection div{ font-family:var(--Font);}
+.secondsection div {
+  font-family: var(--Font);
+}
+.button li > a {
+  text-decoration: none;
+  color: black;
+}
+.button #KorporativMüştərilər {
+  margin-right: 600px;
+}
+.button a {
+  margin-right: 120px;
+}
+.firstsectionofnav {
+  font-family: var(--mainFont);
+}
+.navv > li:not(:nth-child(4n + 1)) a::after {
+  content: url("../image/icon/Vector.png");
+}
+.navv{ display: flex;}
+.navv a{ text-decoration: none; 
+color: black;
+}
+

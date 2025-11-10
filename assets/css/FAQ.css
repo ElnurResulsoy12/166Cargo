@@ -1,102 +1,65 @@
-ul > li button {
-  position: sticky;
+.headerContainer {
   display: flex;
-  flex-direction: row;
-  gap: 1px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContainer > div:first-child {
+  display: flex;
+}
+
+.headerContainer > div:first-child > div button {
+  font: 500 14px var(--mainFont);
+  border: 1px solid var(--mainColor);
+  border-radius: 8px;
   padding: 10px;
-  border: 1px solid;
-  border-radius: 8px;
-  width: fit-content;
-  height: fit-content;
+  height: 38px;
+  background-color: transparent;
 }
 
-.button {
-  display: flex;
-  gap: 1px;
-  list-style: none;
-  padding: 0;
-  margin: 20px;
-  font-family: var(--mainFont);
+.headerContainer > div:first-child > div:first-child button {
+  color: var(--mainColor);
+  transition: all 0.5s;
 }
-.button button:hover {
-  border-color: #ecac00;
-  color: #ecac00;
+
+.headerContainer > div:first-child > div:last-child button {
+  border-left: none;
+  border-color: rgba(244, 233, 233, 0.491);
+  transition: all 0.5s;
 }
-.button button {
-  transition: border-color 0.3s ease, color 0.3s ease;
+
+.headerContainer > div:first-child > div:last-child button:hover {
+  color: var(--mainColor);
+  border-color: var(--mainColor);
 }
-.button button:active {
-  color: #ffff00;
-  border-color: #ffff00;
-}
-.secondsection svg {
-  width: 20.625px;
-  height: 14.625px;
-  top: 4.69px;
-  left: 1.69px;
-}
-.secondsection > ul > li > a {
-  text-decoration: none;
+
+.headerContainer > div:first-child > div:first-child button:hover {
   color: black;
+  border-color: rgba(244, 233, 233, 0.491);
 }
-.secondsection > ul > li > a:hover {
-  color: black;
-}
-.secondsticky {
+
+.headerContainer > div:last-child {
   display: flex;
+  align-items: center;
+  gap: 58px;
+}
+
+.headerContainer > div:last-child > div:first-child {
+  display: flex;
+  align-items: center;
   gap: 6px;
-  justify-content: end;
-}
-header {
-  position: sticky;
 }
 
-.firstsectionofnav {
-  width: 1270px;
-  height: 86px;
-  border: solid;
-  border-color: #6969691f;
-}
-.firstsectionofnav > div {
-  padding-left: 50px;
-}
-.firstsectionofnav {
-  display: flex;
-}
-.search {
-  margin-top: 30px;
-}
-.firstsectionofnav > div > img {
-  padding-right: 180px;
-}
-input {
-  border-radius: 8px;
-  border-color: #f3f3f3;
-  width: 200px;
-  height: 36px;
-  font-family: var(--mainFont);
-}
-.secondsection div {
-  font-family: var(--Font);
-}
-.button li > a {
-  text-decoration: none;
-  color: black;
-}
-.button #KorporativMüştərilər {
-  margin-right: 600px;
-}
-.button a {
-  margin-right: 120px;
-}
-.firstsectionofnav {
-  font-family: var(--mainFont);
-}
-.navv > li:not(:nth-child(4n + 1)) a::after {
-  content: url("../image/icon/Vector.png");
-}
-.navv{ display: flex;}
-.navv a{ text-decoration: none; 
-color: black;
+.onlaynOdenis {
+  font: 500 14px var(--mainFont);
 }
 
+.headerContainer {
+  padding: 14px 0 20px 0;
+}
+
+.headerMenu .btn:first-child:active,
+.headerMenu .dropdown-center:focus-visible {
+  border: none;
+  outline: none;
+}

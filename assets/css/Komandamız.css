@@ -283,3 +283,48 @@ hr {
 .aboutTeam img {
   color: #4c4c4c;
 }
+footer {
+  margin-top: 120px;
+  background-color: var(--mainColor);
+  height: 414px;
+}
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  font: var(--mainFont);
+}
+footer div:last-child {
+  margin-right: 60px;
+}
+footer div:first-child {
+  margin-left: 60px;
+}
+footer > div > div > ul > li:first-child {
+  font-weight: bold;
+}
+footer > div > div > ul > li {
+  margin-bottom: 10px;
+}
+footer > div > div:first-child > ul > li {
+  display: flex;
+  gap: 8px;
+}
+footer > div > div:first-child > ul > li:last-child {
+  font-weight: bold;
+  margin-top: 15px;
+}
+footer > div > div {
+  margin-top: 50px;
+}
+footer>div>div>ul>li>a{
+color: #785801;
+}
+.socialmedia{
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+footer hr{
+  color:#785801;
+  margin-top: 20px;
+}

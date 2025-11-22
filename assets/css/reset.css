@@ -48,3 +48,8 @@ a{
 a:hover{
 	color: black;
 }
+.dropdown-toggle {
+  background-color: transparent !important;
+  border: none;
+  color: black;
+}

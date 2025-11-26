@@ -3,7 +3,7 @@
 Bu proyekt yükdaşıma xidməti 166 Cargo üçün yazılmış saytdır.Onlayn ödəniş bölməsinə klik edərək, ödəniş edə bilərsiniz.Saytımızda İngilis,Azərbaycan və Rus dili mövcuddur.Həmçinin haqqımızda hissəsinə klik edərək haqqımızda daha cox məlumat əldə edə bilərsiniz.
 
 ## Authors
- 
+
 -[Elnur Rəsulsoy](https://github.com/ElnurResulsoy12)
 
 ## Feedback

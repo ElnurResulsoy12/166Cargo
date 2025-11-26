@@ -112,14 +112,14 @@ hr {
 .bookACall div:last-child {
   margin-top: 5px;
 }
-.firstsection > div > ul {
+.firstsection  > ul {
   display: flex;
 }
-.firstsection > div > ul > li:not(:last-child):after {
-  content: url(/assets/image/icon/sagaox.png);
+.firstsection > ul > li:not(:last-child):after {
+  content: url(../image/icon/sagaox.png);
   margin: 2.5px 8px 0px 8px;
 }
-.firstsection > div > ul > li:last-child a {
+.firstsection > ul > li:last-child a {
   color: #b8b8b8;
 }
 .navContainer {
@@ -143,143 +143,19 @@ hr {
   display: flex;
   align-items: center;
 }
-.secondsection a {
-  font-family: var(--mainFont);
-}
-.secondsection > ul {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  margin-top: 34px;
-}
-.secondsection .komandamız {
-  color: #ffcc4d;
-  text-decoration: underline;
-}
-.secondsection li > a:hover {
-  color: #ffcc4d;
-  text-decoration: underline;
-}
-.secondsection li > a {
-  transition: all 0.3s;
-}
-.thirthsection {
-  margin-top: 30px;
-  display: flex;
-  gap: 10px;
-}
-.thirthsection p {
-  font-family: var(--mainFont);
-  font-weight: 600;
-  font-style: SemiBold;
-  font-size: 32px;
-  leading-trim: NONE;
-  line-height: 150%;
-  letter-spacing: 0%;
-}
-.thirthsection svg {
-  margin-top: 25px;
-}
-.fourthsection > ul p {
-  color: #4c4c4c;
-}
-.fourthsection {
-  font-family: var(--mainFont);
-}
-.firstsection > ul > li > div > img {
-  width: 392;
-  height: 430;
-  opacity: 1;
-}
-.aboutTeam > ul > li > div:first-child a {
+.fixedBox {
+  position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.281);
+}
+nav {
+  margin-top: 70px;
+}
+html {
+  scrollbar-color: var(--mainColor) #f1f1f1; 
+  scrollbar-width: thin; 
 }
 
-.aboutTeam > ul > li > div:first-child a img {
-  width: 100%;
-}
-
-.aboutTeam > ul > li > div:first-child a {
-  display: flex;
-  justify-content: center;
-}
-
-.teamSection {
-  margin-top: 38px;
-}
-
-.teamTitle {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 37px;
-}
-
-.teamTitle div:last-child p {
-  font: 600 32px var(--mainFont);
-  color: #111827;
-}
-
-.aboutTeam > ul > li {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.aboutTeam > ul > li > div:last-child {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.aboutTeam > ul > li > div:last-child > div:first-child h2 {
-  font: 500 20px var(--mainFont);
-  color: #111827;
-}
-
-.aboutTeam > ul > li > div:last-child > div:last-child p {
-  font: 400 16px var(--mainFont);
-  color: #4c4c4c;
-}
-
-.aboutTeam > ul > li {
-  margin-bottom: 38px;
-}
-
-.aboutImage {
-  border: 1px solid #e4e4e4;
-  border-radius: 8px;
-}
-
-.aboutTeam > ul > li > div:first-child {
-  background-position-y: 78px;
-  background-position-x: right;
-  background-size: 50%;
-}
-
-.aboutTeam > ul > li:nth-child(3n + 1) > div:first-child {
-  background-image: url("/assets/image/decor.png");
-  background-repeat: no-repeat;
-}
-
-.aboutTeam > ul > li:nth-child(3n + 2) > div:first-child {
-  background-image: url("../image/decor.png");
-  background-repeat: repeat-x;
-}
-
-.aboutTeam > ul > li:nth-child(3n + 3) > div:first-child {
-  background-image: url("../image/decor.png");
-  background-position-x: left;
-  background-repeat: no-repeat;
-}
-
-.aboutTeam > ul > li:nth-child(3) > div:first-child {
-  background-image: url("../image/decor2.png");
-}
-
-.aboutTeam > ul > li:nth-child(3) img {
-  height: 235px;
-}
-.aboutTeam img {
-  color: #4c4c4c;
-}

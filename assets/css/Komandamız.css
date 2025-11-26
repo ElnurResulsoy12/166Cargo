@@ -316,15 +316,31 @@ footer > div > div:first-child > ul > li:last-child {
 footer > div > div {
   margin-top: 50px;
 }
-footer>div>div>ul>li>a{
-color: #785801;
+footer > div > div > ul > li > a {
+  color: #785801;
 }
-.socialmedia{
+.socialmedia {
   display: flex;
   gap: 24px;
   margin-top: 24px;
 }
-footer hr{
-  color:#785801;
-  margin-top: 20px;
+footer hr {
+  color: #785801;
+  margin-top: 100px;
+}
+footer p {
+  color: #785801;
+  text-align: center;
+  margin-top: 30px;
+}
+.fixedBox {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.281);
+}
+nav {
+  margin-top: 70px;
 }

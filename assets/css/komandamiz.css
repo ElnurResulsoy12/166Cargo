@@ -104,7 +104,6 @@ hr {
   padding-bottom: 4px;
   padding-left: 10px;
   gap: 10px;
-  angle: 0 deg;
   opacity: 1;
   border-radius: 8px;
   color: white;
@@ -173,7 +172,6 @@ hr {
   font-weight: 600;
   font-style: SemiBold;
   font-size: 32px;
-  leading-trim: NONE;
   line-height: 150%;
   letter-spacing: 0%;
 }
@@ -277,62 +275,16 @@ hr {
   background-image: url("../image/decor2.png");
 }
 
-.aboutTeam > ul > li:nth-child(3) img {
-  height: 235px;
-}
 .aboutTeam img {
   color: #4c4c4c;
 }
-footer {
-  margin-top: 120px;
-  background-color: var(--mainColor);
-  height: 414px;
-}
-footer > div {
-  display: flex;
-  justify-content: space-between;
-  font: var(--mainFont);
-}
-footer div:last-child {
-  margin-right: 60px;
-}
-footer div:first-child {
-  margin-left: 60px;
-}
-footer > div > div > ul > li:first-child {
-  font-weight: bold;
-}
-footer > div > div > ul > li {
-  margin-bottom: 10px;
-}
-footer > div > div:first-child > ul > li {
-  display: flex;
-  gap: 8px;
-}
-footer > div > div:first-child > ul > li:last-child {
-  font-weight: bold;
-  margin-top: 15px;
-}
-footer > div > div {
-  margin-top: 50px;
-}
-footer > div > div > ul > li > a {
-  color: #785801;
-}
+
 .socialmedia {
   display: flex;
   gap: 24px;
   margin-top: 24px;
 }
-footer hr {
-  color: #785801;
-  margin-top: 100px;
-}
-footer p {
-  color: #785801;
-  text-align: center;
-  margin-top: 30px;
-}
+
 .fixedBox {
   position: fixed;
   width: 100%;
@@ -343,4 +295,83 @@ footer p {
 }
 nav {
   margin-top: 70px;
+}
+
+.faqFooter {
+  background-color: var(--mainColor);
+  padding: 34px 0px;
+  margin-top: 200px;
+}
+
+.faqFooter > div > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faqFooter > div > div:last-child {
+  display: flex;
+  justify-content: center;
+  color: #b38304;
+  margin-top: 40px;
+}
+
+.faqFooter > div > div:nth-child(2) {
+  margin-top: 100px;
+}
+
+.faqFooter > div > div:last-child a {
+  color: #b38304;
+}
+
+.footerLinksTitle p {
+  color: #312402;
+  font: 600 20px var(--mainFont);
+}
+
+.faqFooter ul li a {
+  color: #785801;
+  font: 300 14px var(--mainFont);
+}
+
+.faqLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.faqLinksLast {
+  gap: 14px;
+}
+
+.hamisinabax {
+  margin-top: 14px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.hamisinabax button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  color: #312402;
+  font: 500 14px var(--mainFont);
+}
+
+.hamisinabax img {
+  margin-top: 2px;
+}
+
+.socialLinks {
+  margin-top: 30px;
+}
+
+.socialLinks ul {
+  display: flex;
+  gap: 24px;
+}
+
+.navBoxShadow {
+  box-shadow: 0px 2px 4px 0px #6969691f;
 }

@@ -98,21 +98,16 @@ hr {
   display: flex;
   background-color: #ffcc4d;
   border: none;
-  height: 36;
-  padding-top: 4px;
-  padding-right: 10px;
-  padding-bottom: 4px;
-  padding-left: 10px;
+  height: 36px;
+  padding: 4px 10px;
   gap: 10px;
-  angle: 0 deg;
-  opacity: 1;
   border-radius: 8px;
   color: white;
 }
 .bookACall div:last-child {
   margin-top: 5px;
 }
-.firstsection  > ul {
+.firstsection > ul {
   display: flex;
 }
 .firstsection > ul > li:not(:last-child):after {
@@ -155,9 +150,14 @@ nav {
   margin-top: 70px;
 }
 html {
-  scrollbar-color: var(--mainColor) #f1f1f1; 
-  scrollbar-width: thin; 
+  scrollbar-color: var(--mainColor) #f1f1f1;
+  scrollbar-width: thin;
 }
-.items{
-  margin-right: 900px;
+.secondsection {
+  margin-top: 23px;
+}
+
+.transportContainer {
+  display: flex;
+  justify-content: space-between;
 }

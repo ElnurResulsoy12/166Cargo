@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>166Cargo</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="icon" href="/assets/image/icon/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <div class="fixedBox">
+      <header class="container">
+        <div class="headerContainer">
+          <div>
+            <div>
+              <button>Fərdi Müştərilər</button>
+            </div>
+            <div>
+              <button>Korporativ Müştərilər</button>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <div>
+                <svg
+                  width="21"
+                  height="15"
+                  viewBox="0 0 21 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19.3125 0H1.3125C0.964403 0 0.630564 0.138281 0.384422 0.384422C0.138281 0.630564 0 0.964403 0 1.3125V13.3125C0 13.6606 0.138281 13.9944 0.384422 14.2406C0.630564 14.4867 0.964403 14.625 1.3125 14.625H19.3125C19.6606 14.625 19.9944 14.4867 20.2406 14.2406C20.4867 13.9944 20.625 13.6606 20.625 13.3125V1.3125C20.625 0.964403 20.4867 0.630564 20.2406 0.384422C19.9944 0.138281 19.6606 0 19.3125 0ZM1.3125 1.125H19.3125C19.3622 1.125 19.4099 1.14475 19.4451 1.17992C19.4802 1.21508 19.5 1.26277 19.5 1.3125V3.75H1.125V1.3125C1.125 1.26277 1.14475 1.21508 1.17992 1.17992C1.21508 1.14475 1.26277 1.125 1.3125 1.125ZM19.3125 13.5H1.3125C1.26277 13.5 1.21508 13.4802 1.17992 13.4451C1.14475 13.4099 1.125 13.3622 1.125 13.3125V4.875H19.5V13.3125C19.5 13.3622 19.4802 13.4099 19.4451 13.4451C19.4099 13.4802 19.3622 13.5 19.3125 13.5ZM17.625 11.0625C17.625 11.2117 17.5657 11.3548 17.4602 11.4602C17.3548 11.5657 17.2117 11.625 17.0625 11.625H14.0625C13.9133 11.625 13.7702 11.5657 13.6648 11.4602C13.5593 11.3548 13.5 11.2117 13.5 11.0625C13.5 10.9133 13.5593 10.7702 13.6648 10.6648C13.7702 10.5593 13.9133 10.5 14.0625 10.5H17.0625C17.2117 10.5 17.3548 10.5593 17.4602 10.6648C17.5657 10.7702 17.625 10.9133 17.625 11.0625ZM11.625 11.0625C11.625 11.2117 11.5657 11.3548 11.4602 11.4602C11.3548 11.5657 11.2117 11.625 11.0625 11.625H9.5625C9.41332 11.625 9.27024 11.5657 9.16475 11.4602C9.05926 11.3548 9 11.2117 9 11.0625C9 10.9133 9.05926 10.7702 9.16475 10.6648C9.27024 10.5593 9.41332 10.5 9.5625 10.5H11.0625C11.2117 10.5 11.3548 10.5593 11.4602 10.6648C11.5657 10.7702 11.625 10.9133 11.625 11.0625Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <div class="onlaynOdenis">
+                <p>Onlayn ödəniş</p>
+              </div>
+            </div>
+
+            <div class="headerMenu">
+              <div class="dropdown-center">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Eng
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Aze</a></li>
+                  <li><a class="dropdown-item" href="#">Rus</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <nav class="container">
+      <div class="navContainer">
+        <!-- Sekil olan hisse -->
+        <div>
+          <img src="/assets/image/cargo166.png" alt="cargo166" />
+        </div>
+
+        <!-- 2-ci hisse -->
+        <div>
+          <div class="search-box">
+            <input type="text" placeholder="Search" />
+            <img src="/assets/image/icon/lupa.png" alt="error" />
+          </div>
+
+          <div class="navigathionElement">
+            <div class="secimler">
+              <ul>
+                <li><a href="#">Əsas səhifə</a></li>
+                <li>
+                  <div class="dropdown-center">
+                    <button
+                      class="btn dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Şirkətimiz
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Haqqımızda</a></li>
+                      <li><a class="dropdown-item" href="#">Tarixçəmiz</a></li>
+                      <li><a class="dropdown-item" href="#">Biz kimik</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown-center">
+                    <button
+                      class="btn dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Xidmətlər
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Logistika</a></li>
+                      <li><a class="dropdown-item" href="#">Daşımalar</a></li>
+                      <li>
+                        <a class="dropdown-item" href="./Xidmətlər.html"
+                          >Anbar Xidmətləri</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown-center">
+                    <button
+                      class="btn dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Blog
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Son Xəbərlər</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Məqalələr</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Bloq Yazıları</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#">Əlaqə</a></li>
+              </ul>
+            </div>
+
+            <div class="bookACall">
+              <button>
+                <div>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p>Book a call</p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr />
+
+    <main class="container">
+      <section class="firstsection">
+        <div>
+          <ul>
+            <li>
+              <a href="#"
+                ><svg
+                  width="18"
+                  height="20"
+                  viewBox="0 0 18 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.54916 0.530247C8.38719 -0.176749 9.61281 -0.176749 10.4508 0.530247L17.2008 6.22479C17.7076 6.6523 18 7.28154 18 7.94454V17.7475C18 18.714 17.2165 19.4975 16.25 19.4975H13.25C12.2835 19.4975 11.5 18.714 11.5 17.7475V12.7475C11.5 12.3333 11.1642 11.9975 10.75 11.9975H7.25C6.83579 11.9975 6.5 12.3333 6.5 12.7475V17.7475C6.5 18.714 5.7165 19.4975 4.75 19.4975H1.75C0.783502 19.4975 0 18.714 0 17.7475V7.94454C0 7.28154 0.292405 6.6523 0.799155 6.22479L7.54916 0.530247Z"
+                    fill="#242424"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li><a href="#">Parent</a></li>
+            <li><a href="#">Child</a></li>
+            <li><a href="#">Sub Option</a></li>
+            <li><a href="#">The Chosen One</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="secondsection">
+        <ul>
+          <li><a href="#">Haqqımızda</a></li>
+          <li><a class="komandamız" href="#">Komandamız</a></li>
+          <li><a href="#">Mediada biz</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Tez-tez verilən suallar</a></li>
+          <li><a href="#">Qalereya</a></li>
+        </ul>
+      </section>
+      <section class="thirthsection">
+        <svg
+          width="52"
+          height="1"
+          viewBox="0 0 52 1"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line y1="0.5" x2="52" y2="0.5" stroke="#FFCC4D" />
+        </svg>
+        <p>Komandamız</p>
+      </section>
+
+      <section class="fourthsection">
+        <div class="aboutTeam">
+          <ul class="row">
+            <li class="col-sm-4 col-12">
+              <div class="aboutImage">
+                <a href="#">
+                  <img src="./assets/image/komandamiz2.png" alt="team" />
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <h2>Samida Qəniyeva</h2>
+                </div>
+
+                <div>
+                  <p>Korporativ satiş şöbəsinin rəhbəri</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-sm-4 col-12">
+              <div class="aboutImage">
+                <a href="#">
+                  <img src="./assets/image/komandamiz2.png" alt="team" />
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <h2>Altay Nəcəfov</h2>
+                </div>
+
+                <div>
+                  <p>Hüquq şöbəsinin rəhbəri</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-sm-4 col-12">
+              <div class="aboutImage">
+                <a href="#">
+                  <img src="./assets/image/komandamiz2.png" alt="team" />
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <h2>Jane Doe</h2>
+                </div>
+
+                <div>
+                  <p>Hüquq şöbəsinin rəhbəri</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-sm-4 col-12">
+              <div class="aboutImage">
+                <a href="#">
+                  <img src="./assets/image/komandamiz2.png" alt="team" />
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <h2>Samida Qəniyeva</h2>
+                </div>
+
+                <div>
+                  <p>Korporativ satiş şöbəsinin rəhbəri</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-sm-4 col-12">
+              <div class="aboutImage">
+                <a href="#">
+                  <img src="./assets/image/komandamiz2.png" alt="team" />
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <h2>Altay Nəcəfov</h2>
+                </div>
+
+                <div>
+                  <p>Hüquq şöbəsinin rəhbəri</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-sm-4 col-12">
+              <div class="aboutImage">
+                <a href="#">
+                  <img src="./assets/image/komandamiz2.png" alt="team" />
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <h2>Altay Nəcəfov</h2>
+                </div>
+
+                <div>
+                  <p>Hüquq şöbəsinin rəhbəri</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-sm-4 col-12">
+              <div class="aboutImage">
+                <a href="#">
+                  <img src="./assets/image/komandamiz2.png" alt="team" />
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <h2>Samida Qəniyeva</h2>
+                </div>
+
+                <div>
+                  <p>Korporativ satiş şöbəsinin rəhbəri</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-sm-4 col-12">
+              <div class="aboutImage">
+                <a href="#">
+                  <img src="./assets/image/komandamiz2.png" alt="team" />
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <h2>Altay Nəcəfov</h2>
+                </div>
+
+                <div>
+                  <p>Hüquq şöbəsinin rəhbəri</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-sm-4 col-12">
+              <div class="aboutImage">
+                <a href="#">
+                  <img src="/assets/image/komandamiz2.png" alt="team" />
+                </a>
+              </div>
+
+              <div>
+                <div>
+                  <h2>Altay Nəcəfov</h2>
+                </div>
+
+                <div>
+                  <p>Hüquq şöbəsinin rəhbəri</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="faqFooter">
+      <div class="container">
+        <!-- 1- ci hisse -->
+        <div>
+          <div>
+            <div class="footerLinksTitle">
+              <p>Xidmətlər</p>
+            </div>
+
+            <div>
+              <ul class="faqLinks">
+                <li><a href="#">Bizim komanda</a></li>
+                <li><a href="#">Logistika</a></li>
+                <li><a href="#">Yükdaşima</a></li>
+                <li><a href="#">Xalça yuma</a></li>
+                <li><a href="#">Karqo xidməti</a></li>
+              </ul>
+            </div>
+
+            <div class="hamisinabax">
+              <button>Hamisina bax</button>
+              <img alt="arrow" src="./assets/image/icon/Vector.png" />
+            </div>
+          </div>
+
+          <div>
+            <div class="footerLinksTitle">
+              <p>Faydali linklər</p>
+            </div>
+
+            <div>
+              <ul class="faqLinks">
+                <li><a href="#">Haqqimizda</a></li>
+                <li><a href="#">Bizim komanda</a></li>
+                <li><a href="#">Mediada biz</a></li>
+                <li><a href="#">Bloq</a></li>
+                <li><a href="#">Tez-tez verilən suallar</a></li>
+                <li><a href="#">Qalereya</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- birinci hissede olan 3 - cu menu elementi -->
+          <div>
+            <div class="footerLinksTitle">
+              <p>Elaqe</p>
+            </div>
+
+            <div>
+              <ul class="faqLinks faqLinksLast">
+                <li>
+                  <a href="#"
+                    >Ünvan : Yeni Həyat plaza 55 Zərifə Əliyeva, Baki,
+                    Azərbaycan</a
+                  >
+                </li>
+                <li>
+                  <a href="#">Əlaqə nömrəsi : +994 (50) 253 46 16</a>
+                </li>
+                <li>
+                  <a href="#">Elektron poçt : info@166.az</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="socialLinks">
+              <ul>
+                <li>
+                  <a
+                    href="https://docs.google.com/spreadsheets/d/11jPXRB3GWfpQbLtz5Az4_tw3ZVNP1zWh84KLMw91uc8/edit?gid=1481795920#gid=1481795920"
+                    ><img src="./assets/image/1.png" alt="social"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./assets/image/2.png" alt="social"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./assets/image/3.png" alt="social"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./assets/image/4.png" alt="social"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 ci hisse -->
+        <div>
+          <div>
+            <hr color="#F2C13C" />
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <p>
+              © 2022 | 166.az | Bütün hüquqlar qorunur
+              <a href="#">166tech.az</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

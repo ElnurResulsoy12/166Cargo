@@ -161,3 +161,35 @@ html {
   display: flex;
   justify-content: space-between;
 }
+.secondsection>div>div:last-child>p:first-child{
+  font-family: var(--mainFont);
+font-weight: 600;
+font-size: 32px;
+}
+.secondsection>div>div:last-child>div>button:first-child{
+height: 36;
+opacity: 1;
+gap: 10px;
+border-radius: 8px;
+padding: 4px 10px 4px 10px ;
+background-color:var(--mainColor);
+color: #FFFFFF;
+border-color: transparent;
+margin-top: 12px;
+}
+.secondsection>div>div:last-child>div>button:last-child{
+  background-color: white;
+  border-color: transparent;
+  font-family: var(--mainFont);
+}
+.secondsection>div>div:last-child>div{
+  display: flex;
+  justify-content: space-between;
+}
+.secondsection>div>div:last-child>p:last-child{
+width: 625px;
+height: 158px;
+opacity: 1px;
+top: 341px;
+left: 395px;
+}

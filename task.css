@@ -1,0 +1,37 @@
+.reyler > div {
+  height: 325px;
+  left: 45px;
+  gap: 28px;
+  opacity: 1px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 9px 0px #6969692e;
+}
+.reyler {
+  display: flex;
+  gap: 10px;
+}
+.reyler > div > div:first-child {
+  margin-top: 15px;
+  height: 80px;
+  opacity: 1px;
+  border-radius: 8px;
+  display: flex;
+}
+.reyler > div > div {
+  margin-left: 10px;
+}
+.reyler > div > div:first-child > p {
+  margin-left: 240px;
+  margin-top: 20px;
+  color: #989898;
+}
+.reyler > div > div:last-child > div {
+  margin-top: 20px;
+}
+.reyler > div > div:last-child > div > p {
+  color: #989898;
+  margin-top: 15px;
+}
+.reyler > div > div:last-child > div:last-child {
+  color: #ecac00;
+}

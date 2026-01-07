@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/assets/css/global.css" />
     <link rel="icon" href="/assets/image/icon/favicon.png" type="image/png" />
   </head>
-  <body>
+  <body class="task2Body">
     <div class="fixedBox">
       <header class="container">
         <div class="headerContainer">
@@ -77,7 +77,6 @@
             <img src="/assets/image/cargo166.png" alt="cargo166" />
           </div>
 
-          <!-- Navigation -->
           <div>
             <div class="search-box">
               <input type="text" placeholder="Search" />
@@ -184,7 +183,7 @@
 
     <hr />
 
-    <main class="container">
+    <main class="container row">
       <section class="firstsection">
         <ul>
           <li>
@@ -216,118 +215,279 @@
           <li><a href="#">The Chosen One</a></li>
         </ul>
       </section>
-      <section class="secondsection">
-        <div class="allthewritings row">
-          <div class="col-sm-3 col-12">
-            <ul>
-              <li>
-                <div>
-                  <button>Transport</button>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <button>Logistika</button>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <button>Yükdaşıma</button>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <button>Xalçayuma</button>
-                </div>
-                <div>
-                  <ul>
-                    <li>
-                      <a href="#"
-                        >Ev heyvanlarının və digər qoxuların aradan
-                        qaldırılması</a
-                      >
-                    </li>
-                    <li><a href="#">Korporativ xidmət</a></li>
-                    <li>
-                      <a href="#"
-                        >Sintefon yorğan, yastıq və örtüklərin yuyulması</a
-                      >
-                    </li>
-                    <li><a href="#">Xüsusi ləkə çıxarma</a></li>
-                    <li><a href="#">Ədyal, pled və örtüklərin yuyulması</a></li>
-                    <li><a href="#">Xalçaların bərpası - Overlock</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <button>Təmizlik xidməti</button>
-                </div>
-                <div>
-                  <ul>
-                    <li><a href="#">Peşəkar Təmizlik Xidmətləri</a></li>
-                    <li><a href="#"> Ev və mənzil təmizliyi </a></li>
-                    <li><a href="#">Ofis və iş yerlərinin təmizliyi</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <div><button>Evakuasiya</button></div>
-              </li>
-              <li>
-                <div><button>Anbar xidməti</button></div>
-              </li>
-              <li>
-                <div><button>İşçi qüvvəsi xidməti</button></div>
-              </li>
-              <li>
-                <div><button>Usta xidməti</button></div>
-                <div>
-                  <ul>
-                    <li><a href="#">Təmir və tikinti işləri </a></li>
-                    <li><a href="#">Elektrik işləri</a></li>
-                    <li><a href="#">Santexnika işləri </a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <button>Texnoloji həllər</button>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <button>HVAC</button>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <button>Sanitariya xidməti</button>
-                </div>
-                <div>
-                  <ul>
-                    <li><a href="#">Dezinfeksiya işləri</a></li>
-                    <li>
-                      <a href="#"
-                        >Su və kanalizasiya sistemlərinin yoxlanması
-                      </a>
-                    </li>
-                    <li><a href="#">Təmizlik və gigiyena </a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <button>Karqo xidməti</button>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-9 col-12"></div>
+      <div class="ALL">
+        <div class="mainContainer row container">
+          <aside class="col-sm-4 col-12">
+            <div class="asideContainer">
+              <ul>
+                <li class="open">
+                  <div class="xidmetlerBasliq">
+                    <button>
+                      <div>
+                        <p>Transport</p>
+                      </div>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="xidmetlerBasliq">
+                    <button>
+                      <div>
+                        <p>Logistika</p>
+                      </div>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="xidmetlerBasliq">
+                    <button>
+                      <div>
+                        <p>Yükdaşima</p>
+                      </div>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="xidmetlerBasliq">
+                    <button>
+                      <div>
+                        <p>Xalçayuma</p>
+                      </div>
+                    </button>
+                  </div>
+
+                  <div class="xidmetlerSecenekler">
+                    <ul>
+                      <li>
+                        <p>
+                          Ev heyvanlarinin və digər qoxularin aradan
+                          qaldirilmasi
+                        </p>
+                      </li>
+                      <li>
+                        <p>Korporativ xidmət</p>
+                      </li>
+                      <li>
+                        <p>Sintefon yorğan, yastiq və örtüklərin yuyulmasi</p>
+                      </li>
+                      <li>
+                        <p>Xüsusi ləkə çixarma</p>
+                      </li>
+                      <li>
+                        <p>Ədyal, pled və örtüklərin yuyulmasi</p>
+                      </li>
+                      <li>
+                        <p>Xalçalarin bərpasi - Overlock</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="xidmetlerBasliq">
+                    <button>
+                      <div>
+                        <p>Təmizlik xidməti</p>
+                      </div>
+                    </button>
+                  </div>
+
+                  <div class="xidmetlerSecenekler">
+                    <ul>
+                      <li>
+                        <p>Ədyal, pled və örtüklərin yuyulmasi</p>
+                      </li>
+                      <li>
+                        <p>Xalçalarin bərpasi - Overlock</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </aside>
         </div>
-      </section>
+        <div class="yazilihisse">
+          <div class="mainsection2"><p>Transport</p></div>
+          <div>
+            <button>Sifariş ver</button>
+            <button>
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.72 17.08C20.72 17.44 20.64 17.81 20.47 18.17C20.3 18.53 20.08 18.87 19.79 19.19C19.3 19.73 18.76 20.12 18.15 20.37C17.55 20.62 16.9 20.75 16.2 20.75C15.18 20.75 14.09 20.51 12.94 20.02C11.79 19.53 10.64 18.87 9.5 18.04C8.35 17.2 7.26 16.27 6.22 15.24C5.19 14.2 4.26 13.11 3.43 11.97C2.61 10.83 1.95 9.69 1.47 8.56C0.99 7.42 0.75 6.33 0.75 5.29C0.75 4.61 0.87 3.96 1.11 3.36C1.35 2.75 1.73 2.19 2.26 1.69C2.9 1.06 3.6 0.75 4.34 0.75C4.62 0.75 4.9 0.81 5.15 0.93C5.41 1.05 5.64 1.23 5.82 1.49L8.14 4.76C8.32 5.01 8.45 5.24 8.54 5.46C8.63 5.67 8.68 5.88 8.68 6.07C8.68 6.31 8.61 6.55 8.47 6.78C8.34 7.01 8.15 7.25 7.91 7.49L7.15 8.28C7.04 8.39 6.99 8.52 6.99 8.68C6.99 8.76 7 8.83 7.02 8.91C7.05 8.99 7.08 9.05 7.1 9.11C7.28 9.44 7.59 9.87 8.03 10.39C8.48 10.91 8.96 11.44 9.48 11.97C10.02 12.5 10.54 12.99 11.07 13.44C11.59 13.88 12.02 14.18 12.36 14.36C12.41 14.38 12.47 14.41 12.54 14.44C12.62 14.47 12.7 14.48 12.79 14.48C12.96 14.48 13.09 14.42 13.2 14.31L13.96 13.56C14.21 13.31 14.45 13.12 14.68 13C14.91 12.86 15.14 12.79 15.39 12.79C15.58 12.79 15.78 12.83 16 12.92C16.22 13.01 16.45 13.14 16.7 13.31L20.01 15.66C20.27 15.84 20.45 16.05 20.56 16.3C20.66 16.55 20.72 16.8 20.72 17.08Z"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                />
+              </svg>
+              166
+            </button>
+          </div>
+          <div>
+            <p>
+              Turizm, iş və digər sahələrdə ən rahat, müasir standartlara uyğun
+              və operativ sərnişin daşınma xidmətini 166 Transport təklif edir. 
+              166 Transport xidməti hazırda ölkənin Sprinter icarəsi və turların
+              təşkili üzrə ən qabaqcıl xidmətlərindən biridir.  Peşəkar
+              sürücülərimiz tərəfindən sərnişinlərin bir ünvandan digər ünvana
+              təhlükəsiz daşınmasını təmin edirik.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./assets/image/sifarisucunzenget.png"
+            alt="166sifarisucunzenget"
+          />
+        </div>
+      </div>
     </main>
+    <footer>
+      <div><p>Sprinterlərimizin üstünlük və özəllikləri:</p></div>
+      <div>
+        <p>WI-FI sisteminin olması</p>
+        <p>Powerbankların olması</p>
+        <p>Sürət həddinə xüsusi nəazarət (GPS)</p>
+        <p>18-20 nəfərlik olması</p>
+      </div>
+      <div>
+        <p>Yumşaq və komfortlu oturacaq</p>
+        <p>Kondisioner və monitor</p>
+        <p>Masa və işıqlı salon</p>
+        <p>Mütəmadi təmizlənən salon</p>
+      </div>
+      <div class="neucunistifadeetmekolar">
+        <p>Sprinterlərdən nə üçün istifadə etmək olar?</p>
+        <div><ul  class="with-bullets"><li>Şəhərdaxili sərnişin daşınması </li>
+        <li>Ailəvi, dostlarla və ya iş yoldaşlarınızla birgə  istirahət üçün</li>
+        <li>Toy, yas və digər mərasimlər üçün </li>
+        <li>Ölkədaxili işgüzar səfərlər məqsədi ilə (işçi heyətinin daşınması)</li>
+        <li>Hava limanından turistlərin istənilən ünvana çatdırılması </li>
+        <li>Həftəiçi şirkət işçilərinin daşınması</li>
+        <li>Məktəblilərin və universitet tələbələrinin daşınması</li>
+        <li>Müalicə məqsədilə bölgələrimizə səyahət edən şəxslər</li>
+        <li>Ölkənin dörd bir yanına səfər təşkil edən tur agentləri</li>
+        <li>Zavod, fabrik, bank işçilərinin istirahət və ya iş məqsədilə daşınması </li>
+        <li>Özəl səfərlər üçün sürücü və nəqliyyat vasitəsinin icarəsi</li></ul></div>
+      </div>
+      <div  class="faqFooter">
+      <div class="container">
+        <!-- 1- ci hisse -->
+        <div>
+          <div>
+            <div class="footerLinksTitle">
+              <p>Xidmətlər</p>
+            </div>
+
+            <div>
+              <ul class="faqLinks">
+                <li><a href="#">Bizim komanda</a></li>
+                <li><a href="#">Logistika</a></li>
+                <li><a href="#">Yükdaşima</a></li>
+                <li><a href="#">Xalça yuma</a></li>
+                <li><a href="#">Karqo xidməti</a></li>
+              </ul>
+            </div>
+
+            <div class="hamisinabax">
+              <button>Hamisina bax</button>
+              <img alt="arrow" src="./assets/image/icon/Vector.png" />
+            </div>
+          </div>
+
+          <div>
+            <div class="footerLinksTitle">
+              <p>Faydali linklər</p>
+            </div>
+
+            <div>
+              <ul class="faqLinks">
+                <li><a href="#">Haqqimizda</a></li>
+                <li><a href="#">Bizim komanda</a></li>
+                <li><a href="#">Mediada biz</a></li>
+                <li><a href="#">Bloq</a></li>
+                <li><a href="#">Tez-tez verilən suallar</a></li>
+                <li><a href="#">Qalereya</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- birinci hissede olan 3 - cu menu elementi -->
+          <div>
+            <div class="footerLinksTitle">
+              <p>Elaqe</p>
+            </div>
+
+            <div>
+              <ul class="faqLinks faqLinksLast">
+                <li>
+                  <a href="#"
+                    >Ünvan : Yeni Həyat plaza 55 Zərifə Əliyeva, Baki,
+                    Azərbaycan</a
+                  >
+                </li>
+                <li>
+                  <a href="#">Əlaqə nömrəsi : +994 (50) 253 46 16</a>
+                </li>
+                <li>
+                  <a href="#">Elektron poçt : info@166.az</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="socialLinks">
+              <ul>
+                <li>
+                  <a
+                    href="https://docs.google.com/spreadsheets/d/11jPXRB3GWfpQbLtz5Az4_tw3ZVNP1zWh84KLMw91uc8/edit?gid=1481795920#gid=1481795920"
+                    ><img src="./assets/image/1.png" alt="social"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./assets/image/2.png" alt="social"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./assets/image/3.png" alt="social"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./assets/image/4.png" alt="social"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 ci hisse -->
+        <div>
+          <div>
+            <hr color="#F2C13C" />
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <p>
+              © 2022 | 166.az | Bütün hüquqlar qorunur
+              <a href="#">166tech.az</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
   </body>
+  <script src="./assets/js/index.js"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
